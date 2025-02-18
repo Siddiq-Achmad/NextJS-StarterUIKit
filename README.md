@@ -83,25 +83,9 @@ The project is organized into the following directories:
 
 - `components/`: Reusable React components that can be used throughout the application.
 
-### Containers
-
-- `containers/`: React components that wrap other components, providing a higher level of abstraction.
-
-### Pages
-
-- `pages/`: The main pages of the application, each representing a unique route.
-
 ### Public Assets
 
 - `public/`: Static assets such as images, fonts, and other media.
-
-### Styles
-
-- `styles/`: CSS styles for the application, including global styles and component-specific styles.
-
-### Utilities
-
-- `utils/`: Utility functions that can be used throughout the application.
 
 # Features
 
@@ -116,9 +100,8 @@ The project boasts the following features:
 
 To customize the application, you can modify the following files and directories:
 
-- `styles/globals.css`: Global CSS styles for the application.
+- `app/globals.css`: Global CSS styles for the application.
 - `components/`: Reusable React components that can be customized to suit your needs.
-- `pages/`: The main pages of the application, each representing a unique route, can be customized to suit your requirements.
 
 # License
 
