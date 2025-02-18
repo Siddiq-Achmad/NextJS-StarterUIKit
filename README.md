@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextJS Starter UIKit For LUXIMA.ID
+
+=====================================
+
+## Created by: @luxima.id
+
+## Table of Contents
+
+---
+
+1. [Introduction](#introduction)
+2. [Getting Started](#getting-started)
+3. [Project Structure](#project-structure)
+4. [Features](#features)
+5. [Customization](#customization)
+6. [Deployment](#deployment)
+7. [Troubleshooting](#troubleshooting)
+8. [License](#license)
+9. [Contributing](#contributing)
+
+## Introduction
+
+---
+
+Welcome to the NextJS Starter UIKit For LUXIMA.ID! This project is designed to provide a solid foundation for building fast, scalable, and maintainable web applications using Next.js.
 
 ## Getting Started
 
-First, run the development server:
+---
+
+### Prerequisites
+
+- Node.js (version 14 or higher)
+- npm (version 6 or higher)
+- A code editor or IDE of your choice
+
+### Installation
+
+1. Clone the repository using the following command:
+
+```bash
+git clone https://github.com/luxima-id/nextjs-starter-uikit.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd nextjs-starter-uikit
+```
+
+3. Install the dependencies using npm:
+
+```bash
+npm install
+```
+
+or
+
+```bash
+yarn install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Open your web browser and navigate to `http://localhost:3000` to see the application in
+   action.
 
-## Learn More
+# Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+The project is organized into the following directories:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `components/`: Reusable React components that can be used throughout the application.
 
-## Deploy on Vercel
+### Containers
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `containers/`: React components that wrap other components, providing a higher level of abstraction.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Pages
+
+- `pages/`: The main pages of the application, each representing a unique route.
+
+### Public Assets
+
+- `public/`: Static assets such as images, fonts, and other media.
+
+### Styles
+
+- `styles/`: CSS styles for the application, including global styles and component-specific styles.
+
+### Utilities
+
+- `utils/`: Utility functions that can be used throughout the application.
+
+# Features
+
+The project boasts the following features:
+
+- **Fast and Scalable Architecture**: Built using Next.js, the application is optimized for performance and scalability.
+- **Reusable React Components**: Components are designed to be reusable, reducing code duplication and improving maintainability.
+- **Customizable CSS Styles**: Global and component-specific styles can be easily customized to suit your needs.
+- **Internationalization and Localization Support**: The application is designed to support multiple languages and regions.
+
+# Customization
+
+To customize the application, you can modify the following files and directories:
+
+- `styles/globals.css`: Global CSS styles for the application.
+- `components/`: Reusable React components that can be customized to suit your needs.
+- `pages/`: The main pages of the application, each representing a unique route, can be customized to suit your requirements.
+
+# License
+
+This project is licensed under the MIT License. See the LICENSE file for more information.
