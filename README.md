@@ -48,7 +48,7 @@ git clone https://github.com/luxima-id/nextjs-starter-uikit.git
 2. Navigate to the project directory:
 
 ```bash
-cd nextjs-starter-uikit
+cd nextjs-starteruikit
 ```
 
 3. Install the dependencies using npm:
@@ -82,13 +82,37 @@ yarn dev
 
 The project is organized into the following directories:
 
+### App
+
+- `app/` : This is the main application directory.
+
 ### Components
 
 - `components/`: Reusable React components that can be used throughout the application.
 
+### Config
+
+- `config/`: Configuration files for the application.
+
+### Context
+
+- `context/`: This directory contains the context API for the application.
+
+### Hooks
+
+- `hooks/`: This directory contains custom React hooks that can be used throughout the application.
+
 ### Public Assets
 
 - `public/`: Static assets such as images, fonts, and other media.
+
+### Library
+
+- `lib/`: Utility functions and classes that can be used throughout the application.
+
+### Types
+
+- `types/`: TypeScript type definitions for the application.
 
 # Features
 
