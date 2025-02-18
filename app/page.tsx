@@ -1,9 +1,13 @@
-import LoginPage from "./login/page";
+import { HeroGeometric } from "@/components/ui/shape-landing-hero";
 
 export default function Home() {
   return (
-    <div className="w-full h-full mx-auto">
-      <LoginPage />
-    </div>
+    <>
+      <HeroGeometric
+        badge="LUXIMA UI"
+        title1="Elevate Your"
+        title2="Digital Vision"
+      />
+    </>
   );
 }
