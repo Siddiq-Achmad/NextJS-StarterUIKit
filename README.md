@@ -1,8 +1,8 @@
-# NextJS Starter UIKit For LUXIMA.ID
+# NextJS Starter UIKit LUXIMA.ID
 
 =====================================
 
-## Created by: @luxima.id
+## Created by: SiddiqAchmad
 
 ## Table of Contents
 
@@ -30,8 +30,11 @@ Welcome to the NextJS Starter UIKit For LUXIMA.ID! This project is designed to p
 
 ### Prerequisites
 
-- Node.js (version 14 or higher)
-- npm (version 6 or higher)
+- Node.js (version 22 or higher)
+- NextJS (version 15 or higher)
+- React (version 19 or higher)
+- Tailwind CSS (version 4 or higher)
+- npm (version 10 or higher)
 - A code editor or IDE of your choice
 
 ### Installation
